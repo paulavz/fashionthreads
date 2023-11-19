@@ -1,0 +1,42 @@
+/* Slider.css */
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1000px;
+  margin: auto;
+  background-color: #eee;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.imagenes-slider {
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider img {
+  width: 200px;
+  height: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.imagen-slider {
+  width: 200px;
+  height: 200px;
+}
+
+@keyframes slider {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
